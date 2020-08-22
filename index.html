@@ -13,8 +13,8 @@
         <p id="description">esta es la breve explicacion</p>
         <form id="survey-form" >
             <label id="name-label" for="name">Name:</label>
-            <input type="text" id="name" name="user_name" placeholder="Enter name here"> <br><br>
-
+            <input type="name" id="name" name="user_name" placeholder="Enter name here" required> <br><br>
+    
             <label id="email-label" for="email">Your Email:</label>
             <input type="email" id="email" name="email"  pattern=".+@gmail.com" placeholder="youremail@email.com" required> <br><br>
 
@@ -37,7 +37,10 @@
                 <label for="periph2"> I have a Keyboard</label>
                 <input type="checkbox" id="periph3" name="peripherals" value="mouse">
                 <label for="periph3"> I have a Mouse</label>
-                <button type="submit">Send</button>
+                <button id="submit" type="submit">Send</button>
+                <br><br>
+
+                <textarea rows="10" cols="30" name="comment">Insert any comments here</textarea>
 
         </form>
     </div>
