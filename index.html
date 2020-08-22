@@ -18,8 +18,12 @@
             <label id="email-label" for="email">Your Email:</label>
             <input type="email" id="email" name="email"  pattern=".+@gmail.com" placeholder="youremail@email.com" required> <br><br>
 
-            <label id="number-label" for="number">Your Phone Number:</label><input type="number" id="number" name="number" placeholder="9" maxlength=9> <br><br>
-
+            <label id="number-label" for="number">Your Phone Number:</label><input type="number" id="number" name="number" placeholder="9" min="0"
+             max="9"> <br><br>
+            <label for="dropdown">Chosen an item</label>
+            <select id="dropdown">
+                <option value="item">Item</option>
+                <option value="item1">Item1</option>
         </form>
     </div>
 
