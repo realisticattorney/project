@@ -8,43 +8,54 @@
 
 </head>
 <body>
-    <div>
-        <h1 id="title">Titulo</h1>
-        <p id="description">esta es la breve explicacion</p>
+    <fieldset>
+        <div>
+        <h1 id="title">Order your Pizza</h1>
+        <p id="description">Pizza Delivery App</p>
         <form id="survey-form" >
             <label id="name-label" for="name">Name:</label>
             <input type="name" id="name" name="user_name" placeholder="Enter name here" required> <br><br>
+            <label id="Address-label" for="name">Address:</label>
+            <input type="name" id="Address" name="user_name" placeholder="Enter Address here" required> <br><br>
     
             <label id="email-label" for="email">Your Email:</label>
             <input type="email" id="email" name="email"  pattern=".+@gmail.com" placeholder="youremail@email.com" required> <br><br>
 
             <label id="number-label" for="number">Your Phone Number:</label><input type="number" id="number" name="number" placeholder="9" min="0"
              max="9"> <br><br>
-            <label for="dropdown">Chosen an item</label>
+            <label for="dropdown">Chosen your Pizza</label>
             <select id="dropdown">
-                <option value="item">Item</option>
-                <option value="item1">Item1</option>
+                <option value="item">Cheese</option>
+                <option value="item1">4 Seasons</option>
+                <option value="item1">Pineapple</option>
+                <option value="item1">MearLover</option>
             </select>
             <br>
             <br>
             <label for="Elegir">Elegir</label><br><br>
-                <input type="radio" name="Delivery" value="delivery" checked>Delivery<br>
-                <input type="radio" name="Delivery" value="take-away" >Take-away<br><br>
+                <input type="radio" name="Delivery" value="delivery" checked>CreditCard(e.g. Visa, Amex, Dinners, etc<br>
+                <input type="radio" name="Delivery" value="take-away">Cash <br><br>
 
-                <input type="checkbox" id="periph1" name="peripherals" value="screen">
-                <label for="periph1"> I have a Screen</label>
+                <p>Toppings</p>
+                <input type="checkbox" id="periph1" name="peripherals" value="screen">Extra Cheese
+                <label for="periph1"> </label>
                 <input type="checkbox" id="periph2" name="peripherals" value="keyboard">
-                <label for="periph2"> I have a Keyboard</label>
+                <label for="periph2"> Fresh Onions</label>
                 <input type="checkbox" id="periph3" name="peripherals" value="mouse">
-                <label for="periph3"> I have a Mouse</label>
-                <button id="submit" type="submit">Send</button>
+                <label for="periph3"> Caramelize Onions</label>
+                <input type="checkbox" id="periph3" name="peripherals" value="mouse">
+                <label for="periph3"> Pepperoni </label>
+                <input type="checkbox" id="periph3" name="peripherals" value="mouse">
+                <label for="periph3"> Chicken </label>
+                <input type="checkbox" id="periph3" name="peripherals" value="mouse">
+                <label for="periph3"> Parmesan Cheese </label>
                 <br><br>
-
-                <textarea rows="10" cols="30" name="comment">Insert any comments here</textarea>
-
+                <textarea rows="10" cols="30" name="comment">Add any additional comments </textarea><br><br>
+                <button id="submit" type="submit">Send</button>
+                
         </form>
-    </div>
-
+        </div>
+    </fieldset>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>    
 </body>
 </html>
