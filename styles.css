@@ -1,4 +1,25 @@
-#main 
+.main {
+ 
+    margin-left: 35%;
+    background-color: #C1DDD8 ;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33vw;
+
+}
+
+.background{
     background: url(./pizza2.jpg);
     background-size: 80vw;
 }
+
+
+
+
+/* * { 
+    background: url(./pizza2.jpg);
+    background-size: 80vw;
+
+} */

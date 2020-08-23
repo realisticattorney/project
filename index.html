@@ -8,8 +8,9 @@
 
 </head>
 <body>
+    <div class="background">
     <fieldset>
-        <div id="main">
+        <div class="main">
         <h1 id="title">Order your Pizza</h1>
         <p id="description">Pizza Delivery App</p>
         <form id="survey-form" >
@@ -39,7 +40,7 @@
             <br>
             <br>
             <label for="Elegir">Payment Method:</label><br><br>
-                <input type="radio" name="Delivery" value="delivery" checked>CreditCard(e.g. Visa, Amex, Dinners, etc<br>
+                <input type="radio" name="Delivery" value="delivery" checked>CreditCard (e.g. Visa, Amex, Dinners, etc<br>
                 <input type="radio" name="Delivery" value="take-away">Cash <br><br>
 
                 <p>Toppings (optional):</p>
@@ -57,11 +58,13 @@
                 <label for="periph3"> Parmesan</label>
                 <br><br><br>
                 <textarea rows="10" cols="30" name="comment">Any additional comments </textarea><br>
-                <button id="submit" type="submit">Send</button>
+                <!-- <button id="submit" type="submit">Send</button> -->
+                <input Name="IB1" value="Send" type="Image" src="Delivery.jpg" height="100" width="150"id="submit"> 
                 
         </form>
         </div>
-    </fieldset>
+        </fieldset>
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>    
 </body>
 </html>
