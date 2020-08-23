@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Srisakdi:wght@700&display=swap');
+
+
 #title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-family: 'Special Elite', cursive;
     text-align: center;
 }
 
+#description{
+    text-align: center;
+    font-size: 80%;
+}
 
 .main {
  
@@ -13,7 +21,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 33vw;
-
+    font-family: 'Special Elite', cursive;
+    
 
 }
 
@@ -28,17 +37,27 @@
 .textarea {
     background-color: rgba(255, 255, 255, 0.753);
     border-block-end: white;
+    justify-self: left;
+}
 
+#survey-form{
+    margin: 30px;
 }
 
 
+#cajita {
+    opacity: 0.7;
+    filter: alpha(opacity=30); 
+    border-color: transparent;
+  }
 
+#submit{
+    margin-left: 60%;
+}
 
-
-
-
-
-
+#texto{
+    margin-left: 75%;
+}
 
 
 

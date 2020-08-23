@@ -12,7 +12,7 @@
     <fieldset>
         <div class="main">
         <h1 id="title">Order your Pizza</h1>
-        <p id="description">Pizza Delivery App</p>
+        <p id="description">All your local favorites in one place </p>
         <form id="survey-form" >
             <div id="formscss">
             <label id="name-label" for="name">Your name:</label>
@@ -23,9 +23,8 @@
             <label id="email-label" for="email">Your Email:</label>
             <input  class="textarea" type="email" id="email" name="email"  pattern=".+@gmail.com" placeholder="youremail@email.com" required> <br><br>
 
-            <label id="number-label" for="number">Your Number: </label>
-            <input class="textarea" type="number" id="number" name="number" placeholder="9" min="0"
-             max="9"> <br><br>
+            <label id="number-label" for="number">Order Quantity </label>
+            <input class="textarea" type="number" id="number" name="number" placeholder="0" min="0" max="9"> <br><br>
              <label for="dropdown">Pizza Type:</label>
              <select  class="textarea" id="dropdown">
                  <option value="item">Margheritta</option>
@@ -59,9 +58,10 @@
                 <input type="checkbox" id="periph3" name="peripherals" value="mouse">
                 <label for="periph3"> Parmesan</label>
                 <br><br><br>
-                <textarea class="textarea" rows="10" cols="30" name="comment">Any additional comments </textarea><br>
+                <textarea id="cajita" class="textarea" rows="10" cols="30" name="comment">Any additional comments </textarea><br><br>
+
                 <!-- <button id="submit" type="submit">Send</button> -->
-                <input Name="IB1" value="Send" type="Image" src="Delivery.jpg" height="100" width="150"id="submit"> 
+                <input Name="IB1" value="Send" type="Image" src="Foto.png" height="90" width="150"id="submit"> <span id="texto">Order NOW</span>
                 
         </form>
         </div>
