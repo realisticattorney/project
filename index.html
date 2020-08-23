@@ -9,48 +9,54 @@
 </head>
 <body>
     <fieldset>
-        <div>
+        <div id="main">
         <h1 id="title">Order your Pizza</h1>
         <p id="description">Pizza Delivery App</p>
         <form id="survey-form" >
-            <label id="name-label" for="name">Name:</label>
-            <input type="name" id="name" name="user_name" placeholder="Enter name here" required> <br><br>
-            <label id="Address-label" for="name">Address:</label>
+            <label id="name-label" for="name">Your name:</label>
+            <input type="name" id="name" name="user_name" placeholder="First Name, Last Name" required> <br><br>
+            <label id="Address-label" for="name">Your address:</label>
             <input type="name" id="Address" name="user_name" placeholder="Enter Address here" required> <br><br>
     
             <label id="email-label" for="email">Your Email:</label>
             <input type="email" id="email" name="email"  pattern=".+@gmail.com" placeholder="youremail@email.com" required> <br><br>
 
-            <label id="number-label" for="number">Your Phone Number:</label><input type="number" id="number" name="number" placeholder="9" min="0"
+            <label id="number-label" for="number">Your Number: </label><input type="number" id="number" name="number" placeholder="9" min="0"
              max="9"> <br><br>
-            <label for="dropdown">Chosen your Pizza</label>
+             <label for="dropdown">Pizza Type:</label>
+             <select id="dropdown">
+                 <option value="item">Margheritta</option>
+                 <option value="item1">Cheese</option>
+                 <option value="item1">Pepperoni</option>
+                 <option value="item1">Blue Cheese & Portobello</option>
+             </select> <br><br>
+            <label for="dropdown">Size:</label>
             <select id="dropdown">
-                <option value="item">Cheese</option>
-                <option value="item1">4 Seasons</option>
-                <option value="item1">Pineapple</option>
-                <option value="item1">MearLover</option>
+                <option value="item">Small (6 slices)</option>
+                <option value="item1">Large (8 slices)</option>
+                <option value="item1">Extra Large (10 slices)</option>
             </select>
             <br>
             <br>
-            <label for="Elegir">Elegir</label><br><br>
+            <label for="Elegir">Payment Method:</label><br><br>
                 <input type="radio" name="Delivery" value="delivery" checked>CreditCard(e.g. Visa, Amex, Dinners, etc<br>
                 <input type="radio" name="Delivery" value="take-away">Cash <br><br>
 
-                <p>Toppings</p>
+                <p>Toppings (optional):</p>
                 <input type="checkbox" id="periph1" name="peripherals" value="screen">Extra Cheese
                 <label for="periph1"> </label>
+                <input type="checkbox" id="periph3" name="peripherals" value="mouse">
+                <label for="periph3"> Extra Pepperoni </label>
                 <input type="checkbox" id="periph2" name="peripherals" value="keyboard">
-                <label for="periph2"> Fresh Onions</label>
+                <label for="periph2"> Fresh Onions</label><br><br>
                 <input type="checkbox" id="periph3" name="peripherals" value="mouse">
                 <label for="periph3"> Caramelize Onions</label>
                 <input type="checkbox" id="periph3" name="peripherals" value="mouse">
-                <label for="periph3"> Pepperoni </label>
-                <input type="checkbox" id="periph3" name="peripherals" value="mouse">
                 <label for="periph3"> Chicken </label>
                 <input type="checkbox" id="periph3" name="peripherals" value="mouse">
-                <label for="periph3"> Parmesan Cheese </label>
-                <br><br>
-                <textarea rows="10" cols="30" name="comment">Add any additional comments </textarea><br><br>
+                <label for="periph3"> Parmesan</label>
+                <br><br><br>
+                <textarea rows="10" cols="30" name="comment">Any additional comments </textarea><br>
                 <button id="submit" type="submit">Send</button>
                 
         </form>
