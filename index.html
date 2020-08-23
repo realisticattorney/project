@@ -14,25 +14,27 @@
         <h1 id="title">Order your Pizza</h1>
         <p id="description">Pizza Delivery App</p>
         <form id="survey-form" >
+            <div id="formscss">
             <label id="name-label" for="name">Your name:</label>
-            <input type="name" id="name" name="user_name" placeholder="First Name, Last Name" required> <br><br>
+            <input class="textarea" type="name" id="name" name="user_name" placeholder="First Name, Last Name" required> <br><br>
             <label id="Address-label" for="name">Your address:</label>
-            <input type="name" id="Address" name="user_name" placeholder="Enter Address here" required> <br><br>
+            <input  class="textarea" type="name" id="Address" name="user_name" placeholder="Enter Address here" required> <br><br>
     
             <label id="email-label" for="email">Your Email:</label>
-            <input type="email" id="email" name="email"  pattern=".+@gmail.com" placeholder="youremail@email.com" required> <br><br>
+            <input  class="textarea" type="email" id="email" name="email"  pattern=".+@gmail.com" placeholder="youremail@email.com" required> <br><br>
 
-            <label id="number-label" for="number">Your Number: </label><input type="number" id="number" name="number" placeholder="9" min="0"
+            <label id="number-label" for="number">Your Number: </label>
+            <input class="textarea" type="number" id="number" name="number" placeholder="9" min="0"
              max="9"> <br><br>
              <label for="dropdown">Pizza Type:</label>
-             <select id="dropdown">
+             <select  class="textarea" id="dropdown">
                  <option value="item">Margheritta</option>
                  <option value="item1">Cheese</option>
                  <option value="item1">Pepperoni</option>
                  <option value="item1">Blue Cheese & Portobello</option>
              </select> <br><br>
             <label for="dropdown">Size:</label>
-            <select id="dropdown">
+            <select class="textarea" id="dropdown">
                 <option value="item">Small (6 slices)</option>
                 <option value="item1">Large (8 slices)</option>
                 <option value="item1">Extra Large (10 slices)</option>
@@ -57,7 +59,7 @@
                 <input type="checkbox" id="periph3" name="peripherals" value="mouse">
                 <label for="periph3"> Parmesan</label>
                 <br><br><br>
-                <textarea rows="10" cols="30" name="comment">Any additional comments </textarea><br>
+                <textarea class="textarea" rows="10" cols="30" name="comment">Any additional comments </textarea><br>
                 <!-- <button id="submit" type="submit">Send</button> -->
                 <input Name="IB1" value="Send" type="Image" src="Delivery.jpg" height="100" width="150"id="submit"> 
                 
